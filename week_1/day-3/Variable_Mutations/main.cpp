@@ -35,32 +35,32 @@ int main() {
     }
     int i1 = 10;
     int i2 = 4;
-    bool lapat = true;
-    bool lapat2 = false;
+    bool x1 = true;
+    bool x2 = false;
     if (i1 > (i2 * i2) && i1 < (i2 * i2 * i2)) {
 
-        std::cout <<std::boolalpha << lapat << std::endl;
+        std::cout <<std::boolalpha << x1 << std::endl;
     } else {
-        std::cout << std::boolalpha <<lapat2 << std::endl;
+        std::cout << std::boolalpha <<x2 << std::endl;
     }
 
-    std::cout<<lapat2<<std::endl;
+    std::cout<<x2<<std::endl;
     int g1 = 350;
     int g2 = 200;
-    bool kecske = true;
-    bool madar = false;
+    bool o1 = true;
+    bool o2 = false;
     if((g2 * 2) > g1){
-        std::cout << std::boolalpha << kecske << std::endl;
+        std::cout << std::boolalpha << o1 << std::endl;
     }else{
-        std::cout << std::boolalpha << madar << std::endl;
+        std::cout << std::boolalpha << o2 << std::endl;
     }
 int j = 1521;
-    bool telefon = true;
-    bool laptop = false;
+    bool p1 = true;
+    bool p2 = false;
      if((1521 / 3) == 0 || (1521 / 5) == 0 ){
-         std::cout << std::boolalpha << "1521 / 3 is 0 : " << telefon << std::endl;
+         std::cout << std::boolalpha << "1521 / 3 is 0 : " << p1 << std::endl;
      }else{
-         std::cout << std::boolalpha <<"1521 / 5 is 0 : "<< laptop << std::endl;
+         std::cout << std::boolalpha <<"1521 / 5 is 0 : "<< p2 << std::endl;
      }
 
     return 0;
