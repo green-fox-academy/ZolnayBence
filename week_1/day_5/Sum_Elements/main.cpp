@@ -1,7 +1,5 @@
 #include <iostream>
 
-
-
 int main()
 {
     int r[] = {54, 23, 66, 12};
