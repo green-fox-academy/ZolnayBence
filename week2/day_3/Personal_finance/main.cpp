@@ -1,9 +1,10 @@
 #include <iostream>
 #include <vector>
 
-int spent(std::vector<int> list);
+float spent(std::vector<int> list);
 int expense(std::vector<int> list);
 int leastexpense(std::vector<int> list);
+
 
 int main()
 {
@@ -12,6 +13,11 @@ int main()
     std::cout << "We've spent: " << spent(list) << " So far." << std::endl;
     std::cout << "Our greatest expense was: " << expense(list) << std::endl;
     std::cout << "Our cheapest expense was: " << leastexpense(list) << std::endl;
+
+        float Avg = static_cast<float> (spent(list)) / list.size();
+            std::cout << "Our general average spending was: " << Avg << std::endl;
+
+
 
 
     //Create a list with the following items.
@@ -24,7 +30,7 @@ int main()
     return 0;
 }
 
-int spent(std::vector<int> list)
+float spent(std::vector<int> list)
 {
     int cost = 0;
     for (int i = 0; i < list.size(); ++i) {
@@ -50,3 +56,4 @@ int leastexpense(std::vector<int> list){
     }
     return Min;
 }
+
