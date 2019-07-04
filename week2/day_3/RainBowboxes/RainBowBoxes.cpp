@@ -15,13 +15,13 @@ void draw(SDL_Renderer *gRenderer)
             {75, 0, 130, 255}, //indigo
             {0, 0, 255, 255},
             { 0, 255, 0, 255}, //Blue
-            {255, 255, 0}, //yellow
-            {255, 127, 0}, // Orange
-            {255, 0 , 0} //red
+            {255, 255, 0, 255}, //yellow
+            {255, 127, 0, 255}, // Orange
+            {255, 0 , 0, 255} //red
     };
     int x = 0;
     int y = 0;
-    for (int i = 0; i < 7; ++i) {
+    for (int i = 0; i < 10; ++i) {
         for(int j = 0; j < 7; ++j) {
             SDL_SetRenderDrawColor(gRenderer, colors[j][0], colors[j][1], colors[j][2], colors[j][3]);
 
