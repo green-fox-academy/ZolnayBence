@@ -21,21 +21,21 @@ void draw(SDL_Renderer *gRenderer)
     };
     int x = 0;
     int y = 0;
-    for (int i = 0; i < 10; ++i) {
+    for (int i = 0; i < 13; ++i) {
         for(int j = 0; j < 7; ++j) {
             SDL_SetRenderDrawColor(gRenderer, colors[j][0], colors[j][1], colors[j][2], colors[j][3]);
 
-            rainbow(gRenderer, x + j * 50, y + i * 50);
+            rainbow(gRenderer, x + i *69  , y + j *  69);
         }
 
-
+//SDL_SetRenderDrawColor(gRenderer, (rand()%256),(rand()%256),(rand()%256),255);
     }
 }
 
 void rainbow(SDL_Renderer *gRenderer, int x, int y)
 {
 
-    SDL_Rect rainBowBox = {x, y, 50, 50};
+    SDL_Rect rainBowBox = {x, y, 69, 69};
     SDL_RenderDrawRect(gRenderer, &rainBowBox);
     SDL_RenderFillRect(gRenderer, &rainBowBox);
 }
