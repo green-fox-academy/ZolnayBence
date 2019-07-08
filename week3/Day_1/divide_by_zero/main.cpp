@@ -3,7 +3,8 @@
 
 int divide(int num1);
 
-int main() {
+int main()
+{
     // Create a function that takes a number
     // divides ten with it,
     // and prints the result.
@@ -24,11 +25,12 @@ int main() {
 
     } catch (int x) {
         std::cout << "Fail ERROR: " << x << std::endl;
-        return 0;
     }
+    return 0;
 }
 
-int divide(int num1) {
+int divide(int num1)
+{
 
     return (num1 / 10);
 }
