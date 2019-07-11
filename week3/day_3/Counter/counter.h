@@ -7,6 +7,7 @@ public:
     Counter();
     Counter(int num0);
     void add(int num);
+    void add();
     int get();
     void reset();
 

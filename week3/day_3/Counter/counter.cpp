@@ -8,8 +8,6 @@ Counter::Counter(){
 }
 
 void Counter::add(int num) {
-    //int inputnum;
-    //std::cin >> inputnum;
 
     num0_+=num; //inputnum;
 }
@@ -21,4 +19,9 @@ int Counter::get() {
 
 void Counter::reset() {
     num0_ = 0;
+}
+
+void Counter::add()
+{
+    num0_++;
 }
