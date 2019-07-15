@@ -33,9 +33,9 @@ public:
     void setGender(Gender gender);
 
 protected:
-    std::string _name;
-    int _age;
-    Gender _gender;
+    std::string _name = "Jane Doe";
+    int _age = 30;
+    Gender _gender = Gender::FEMALE;
 
 };
 

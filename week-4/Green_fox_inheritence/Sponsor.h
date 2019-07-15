@@ -27,7 +27,7 @@ public:
 
 protected:
     std::string _company;
-    int _hiredStudents;
+    int _hiredStudents = 0;
 };
 
 
