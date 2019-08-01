@@ -1,0 +1,15 @@
+//
+// Created by zolnay0 on 2019.08.01..
+//
+
+#ifndef EXAM_TEST_ANIMAL_PROTECTION_PARROT_H
+#define EXAM_TEST_ANIMAL_PROTECTION_PARROT_H
+
+
+class Parrot
+{
+
+};
+
+
+#endif //EXAM_TEST_ANIMAL_PROTECTION_PARROT_H
