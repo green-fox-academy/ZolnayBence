@@ -5,12 +5,29 @@
 #include <time.h>
 #include <vector>
 #include <string>
+#include <iostream>
 class AnimalShelter
 {
 public:
+    AnimalShelter(int budget);
+
+    AnimalShelter();
+
+    int rescueAnimals(Animal *animal);
+
+    int heal();
+
+    void addAdopter(std::string name);
+
+    void findNewOwner();
+
+    int earnDonation(int donation);
+
+    std::string toString();
+
 private:
-    int _budget;
-    std::vector<Animal*> animals;
+    int _budget = 0;
+    std::vector<Animal*> animalsInTheShelter;
     std::vector<std::string> adoptersName;
 
 };
