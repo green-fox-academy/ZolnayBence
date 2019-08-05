@@ -5,18 +5,18 @@ Pirates::Pirates(bool isCaptain, const std::string &name, bool woodenLegs) : _is
                                                                              _woodenLegs(woodenLegs) {}
 
 void Pirates::work() {
-    if(_isCaptain){
+    if (_isCaptain) {
         _gold += 10;
         _health -= 5;
     } else {
         _gold++;
         _health--;
     }
-    std::cout << getName() << " is currently busy working." <<std::endl;
+    std::cout << getName() << " is currently busy working." << std::endl;
 }
 
 void Pirates::party() {
-    if(_isCaptain){
+    if (_isCaptain) {
         _health += 10;
     } else {
         _health++;
@@ -25,10 +25,12 @@ void Pirates::party() {
 }
 
 std::string Pirates::toString() {
-    if(_woodenLegs) {
-        return "ahoy me name be" + _name + ". 'n i 'ave a wooden leg 'n " + std::to_string(_gold) + " i 'ave amount o' gold";
+    if (_woodenLegs) {
+        return "ahoy me name be" + _name + ". 'n i 'ave a wooden leg 'n " + std::to_string(_gold) +
+               " i 'ave amount o' gold";
     } else {
-        return "ahoy me name be" + _name + ". 'n i don't 'ave a wooden leg 'n " + std::to_string(_gold) + " i 'ave amount o' gold";
+        return "ahoy me name be" + _name + ". 'n i don't 'ave a wooden leg 'n " + std::to_string(_gold) +
+               " i 'ave amount o' gold";
     }
 }
 

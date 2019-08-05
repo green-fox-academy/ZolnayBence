@@ -11,7 +11,7 @@ void draw(SDL_Renderer *gRenderer)
     int y = 0;
     for (int i = 0; i < 9; ++i) {
         if(i%2 == 0){
-            column(gRenderer, x + (i * 69), y - 69);
+            column(gRenderer, x + (i * 69), y - 69 );
         }else {
             column(gRenderer, x + (i * 69), y);
         }

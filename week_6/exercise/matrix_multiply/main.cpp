@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-std::vector<std::vector<int>> matrixMultplier(std::vector<std::vector<int>> matrix, std::vector<std::vector<int>> matrix2);
+std::vector<std::vector<int>> matrixMultplier(std::vector<std::vector<int>> a, std::vector<std::vector<int>> b);
 int main()
 {
     std::vector<std::vector<int>> matrix = {
@@ -24,20 +24,29 @@ int main()
     
     return 0;
 }
-std::vector<std::vector<int>> matrixMultplier(std::vector<std::vector<int>> matrix, std::vector<std::vector<int>> matrix2)
+std::vector<std::vector<int>> matrixMultplier(std::vector<std::vector<int>> a, std::vector<std::vector<int>> b)
 {
-    std::vector<std::vector<int>> matrixFunction = matrix;
+    std::vector<std::vector<int>> res(a.size(), std::vector<int>(b[0].size()));
 
-    for (int i = 0; i < matrix.size(); ++i) {
-        matrixFunction.resize(matrix.size());
-        for (int j = 0; j < matrix[i].size(); ++j) {
-            matrixFunction[0].resize(matrix[0].size());
+    for (int x = 0, y = 0, z = 0;; z++)
+    {
+        if (z == a[0].size()) {
+            z = 0;
+            y++;
+        }
 
-            matrixFunction[i][j] += (matrix[j][i] + 1) * matrix2[i][j];
+        if (y == res[x].size())
+        {
+            y = 0;
+            x++;
+        }
 
+        if (x == res.size())
+            break;
 
-            }
+        res[x][y] += a[x][z] * b[z][y];
 
     }
-    return matrixFunction;
+
+    return res;
 }
