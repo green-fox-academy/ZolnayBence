@@ -26,7 +26,7 @@ int main()
 }
 std::vector<std::vector<int>> matrixMultplier(std::vector<std::vector<int>> a, std::vector<std::vector<int>> b)
 {
-    std::vector<std::vector<int>> res(a.size(), std::vector<int>(b[0].size()));
+    std::vector<std::vector<int>> matrixMultiplication(a.size(), std::vector<int>(b[0].size()));
 
     for (int x = 0, y = 0, z = 0;; z++)
     {
@@ -35,18 +35,18 @@ std::vector<std::vector<int>> matrixMultplier(std::vector<std::vector<int>> a, s
             y++;
         }
 
-        if (y == res[x].size())
+        if (y == matrixMultiplication[x].size())
         {
             y = 0;
             x++;
         }
 
-        if (x == res.size())
+        if (x == matrixMultiplication.size())
             break;
 
-        res[x][y] += a[x][z] * b[z][y];
+        matrixMultiplication[x][y] += a[x][z] * b[z][y];
 
     }
 
-    return res;
+    return matrixMultiplication;
 }
