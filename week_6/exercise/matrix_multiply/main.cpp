@@ -13,6 +13,7 @@ int main()
             {2, 8, 4},
             {3, 5, 6},
             {7, 9, 1}
+
     };
     std::vector<std::vector<int>> matrixs = matrixMultplier(matrix, matrix2);
     for (int i = 0; i < matrixs.size(); ++i) {
