@@ -20,7 +20,9 @@ public:
 
     void fight(Carrier &carrier);
 
+    std::string getStatus();
 
+    void hpDecreasingOverFight(int hv);
 private:
     int _health;
     std::vector<Aircrafts*> _aircrafts;

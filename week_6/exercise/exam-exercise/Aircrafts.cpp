@@ -49,10 +49,6 @@ int Aircrafts::getBaseDamage() const
     return _baseDamage;
 }
 
-int Aircrafts::damage()
-{
-    int infflictedDamage = _baseDamage * _ammo;
-    return infflictedDamage;
-}
+
 
 

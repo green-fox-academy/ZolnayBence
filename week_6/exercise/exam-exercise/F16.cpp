@@ -1,5 +1,7 @@
 #include "F16.h"
 
+F16::F16() {}
+
 F16::F16(int aircraftAmmunition, int ammunitionCapacity, int baseDamage) : Aircrafts(0,
                                                                                      8, 30)
 {}

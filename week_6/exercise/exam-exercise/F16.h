@@ -8,6 +8,8 @@ class F16 : public Aircrafts
 public:
     F16(int aircraftAmmunition, int ammunitionCapacity, int baseDamage);
 
+    F16();
+
     std::string getType() override;
 
     bool isPriority() override;

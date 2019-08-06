@@ -21,7 +21,6 @@ public:
 
     virtual bool isPriority() = 0;
 
-    int damage();
 protected:
 
     int _ammo = 0;

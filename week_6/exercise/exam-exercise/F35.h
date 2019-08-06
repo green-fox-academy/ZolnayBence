@@ -9,6 +9,8 @@ class F35 : public Aircrafts
 public:
     F35(int aircraftAmmunition, int ammunitionCapacity, int baseDamage);
 
+    F35();
+
     std::string getType() override;
 
     bool isPriority() override;
