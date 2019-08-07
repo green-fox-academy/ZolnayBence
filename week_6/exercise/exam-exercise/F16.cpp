@@ -2,8 +2,7 @@
 
 F16::F16() {}
 
-F16::F16(int aircraftAmmunition, int ammunitionCapacity, int baseDamage) : Aircrafts(0,
-                                                                                     8, 30)
+F16::F16(int aircraftAmmunition, int ammunitionCapacity, int baseDamage) : Aircraft(0, 8, 30)
 {}
 
 std::string F16::getType()

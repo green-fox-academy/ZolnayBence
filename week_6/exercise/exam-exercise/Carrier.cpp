@@ -1,12 +1,12 @@
 #include <iostream>
 #include "Carrier.h"
-#include "Aircrafts.h"
+#include "Aircraft.h"
 
 Carrier::Carrier() {}
 
 Carrier::Carrier(int health, int ammoStorage) : _health(5000), _ammoStorage(2800) {}
 
-void Carrier::add(Aircrafts &aircrafts) {
+void Carrier::add(Aircraft &aircrafts) {
     _aircrafts.push_back(&aircrafts);
 }
 

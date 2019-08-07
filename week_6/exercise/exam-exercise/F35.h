@@ -2,14 +2,17 @@
 #define EXAM_EXERCISE_F35_H
 
 
-#include "Aircrafts.h"
+#include "Aircraft.h"
 
-class F35 : public Aircrafts
+class F35 : public Aircraft
 {
 public:
-    F35(int aircraftAmmunition, int ammunitionCapacity, int baseDamage);
+
+
+    F35(int ammo, int ammunitionCapacity, int baseDamage);
 
     F35();
+
 
     std::string getType() override;
 

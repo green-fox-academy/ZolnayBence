@@ -1,7 +1,7 @@
 #ifndef EXAM_EXERCISE_CARRIER_H
 #define EXAM_EXERCISE_CARRIER_H
 
-#include "Aircrafts.h"
+#include "Aircraft.h"
 
 #include <time.h>
 #include <vector>
@@ -14,7 +14,7 @@ public:
 
     Carrier(int health, int ammoStorage);
 
-    void add(Aircrafts &aircrafts);
+    void add(Aircraft &aircrafts);
 
     void fill();
 
@@ -25,7 +25,7 @@ public:
     void hpDecreasingOverFight(int hv);
 private:
     int _health;
-    std::vector<Aircrafts*> _aircrafts;
+    std::vector<Aircraft*> _aircrafts;
     int _ammoStorage;
 };
 

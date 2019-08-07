@@ -1,9 +1,9 @@
 #ifndef EXAM_EXERCISE_F16_H
 #define EXAM_EXERCISE_F16_H
 
-#include "Aircrafts.h"
+#include "Aircraft.h"
 
-class F16 : public Aircrafts
+class F16 : public Aircraft
 {
 public:
     F16(int aircraftAmmunition, int ammunitionCapacity, int baseDamage);

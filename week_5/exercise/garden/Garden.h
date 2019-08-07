@@ -3,20 +3,19 @@
 
 #include <vector>
 #include <string>
+#include "Plant.h"
+#include "Flower.h"
 
 class Garden {
 public:
-    Garden();
+    void flowerWatering(int _waterAmount);
 
-    Garden(const std::vector<std::vector<std::string>> &flowers, int watering);
+    void addPlant(Plant &plant);
 
-    void wateringFlowers();
+    std::string toString();
 
-    void addFlowers();
-
-protected:
-    std::vector<std::vector<std::string>> _flowers;
-    int _watering;
+private:
+    std::vector<Plant*> plants;
 };
 
 

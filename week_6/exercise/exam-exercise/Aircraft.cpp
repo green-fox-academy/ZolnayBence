@@ -1,22 +1,22 @@
-#include "Aircrafts.h"
+#include "Aircraft.h"
 
-Aircrafts::Aircrafts()
+Aircraft::Aircraft()
 {}
 
 
 
-Aircrafts::Aircrafts(int ammo, int ammunitionCapacity, int baseDamage) : _ammo(
+Aircraft::Aircraft(int ammo, int ammunitionCapacity, int baseDamage) : _ammo(
         ammo), _ammunitionCapacity(ammunitionCapacity), _baseDamage(baseDamage)
 {}
 
-int Aircrafts::fight()
+int Aircraft::fight()
 {
     int damage = _baseDamage * _ammo;
     _ammo = 0;
     return damage;
 }
 
-int Aircrafts::refill(int amount)
+int Aircraft::refill(int amount)
 {
     int fueling = _ammunitionCapacity - _ammo;
     if(fueling >= _ammunitionCapacity){
@@ -28,23 +28,23 @@ int Aircrafts::refill(int amount)
     return 0;
 }
 
-std::string Aircrafts::getStatus()
+std::string Aircraft::getStatus()
 {
     return "Type " + getType() + ", Ammo: " + std::to_string(_ammo) + ", Base Damage: " + std::to_string(_baseDamage) + ", All Damage: " +
     std::to_string(_ammo * _baseDamage);
 }
 
-int Aircrafts::getAmmo() const
+int Aircraft::getAmmo() const
 {
     return _ammo;
 }
 
-int Aircrafts::getAmmunitionCapacity() const
+int Aircraft::getAmmunitionCapacity() const
 {
     return _ammunitionCapacity;
 }
 
-int Aircrafts::getBaseDamage() const
+int Aircraft::getBaseDamage() const
 {
     return _baseDamage;
 }

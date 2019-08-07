@@ -1,15 +1,15 @@
-#ifndef EXAM_EXERCISE_AIRCRAFTS_H
-#define EXAM_EXERCISE_AIRCRAFTS_H
+#ifndef EXAM_EXERCISE_AIRCRAFT_H
+#define EXAM_EXERCISE_AIRCRAFT_H
 
 #include <string>
 
-class Aircrafts
+class Aircraft
 {
 public:
 
-    Aircrafts();
+    Aircraft();
 
-    Aircrafts(int ammo, int ammunitionCapacity, int baseDamage);
+    Aircraft(int ammo, int ammunitionCapacity, int baseDamage);
 
     int fight();
 
@@ -21,11 +21,6 @@ public:
 
     virtual bool isPriority() = 0;
 
-protected:
-
-    int _ammo = 0;
-    int _ammunitionCapacity = 0;
-public:
     int getAmmo() const;
 
     int getAmmunitionCapacity() const;
@@ -33,8 +28,11 @@ public:
     int getBaseDamage() const;
 
 protected:
+
+    int _ammo = 0;
+    int _ammunitionCapacity = 0;
     int _baseDamage = 0;
 };
 
 
-#endif //EXAM_EXERCISE_AIRCRAFTS_H
+#endif //EXAM_EXERCISE_AIRCRAFT_H
