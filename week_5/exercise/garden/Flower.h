@@ -6,6 +6,7 @@ class Flower : public Plant {
 public:
     Flower( const std::string &color);
 
+    std::string getPlantType() override;
 
 
 public:

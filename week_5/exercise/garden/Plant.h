@@ -6,20 +6,20 @@
 class Plant  {
 
 public:
-    Plant();
-
-    Plant(int thirstLevel, int waterAmount, const std::string &color);
+    Plant(int thirstLevel, float absorbtion, const std::string &color);
 
     void watering(int amount);
 
     bool _isThristy();
 
     std::string toString();
+
+    virtual std::string getPlantType() = 0;
 protected:
     int _thirstLevel;
     int _waterAmount;
     std::string _color;
-    int _absorbtion;
+    float _absorbtion;
 
 };
 
