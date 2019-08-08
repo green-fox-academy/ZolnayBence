@@ -5,6 +5,7 @@
 #include <string>
 #include "Plant.h"
 #include "Flower.h"
+#include "Tree.h"
 
 class Garden {
 public:
@@ -12,8 +13,7 @@ public:
 
     void addPlant(Plant &plant);
 
-    std::string toString();
-
+    void gardenStatus();
 private:
     std::vector<Plant*> plants;
 };

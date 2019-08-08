@@ -1,6 +1,7 @@
 #include "Garden.h"
 #include <vector>
 #include <string>
+#include <iostream>
 
 void Garden::addPlant(Plant &plant) {
     plants.push_back(&plant);
@@ -23,3 +24,15 @@ void Garden::flowerWatering(int _waterAmount) {
 
     }
 }
+
+void Garden::gardenStatus() {
+    for (int i = 0; i < plants.size(); ++i) {
+        if(plants[i]->_isThristy()){
+            std::cout << "The " << plants[i]->getColor() << " " << plants[i]->getPlantType() << " Needs water" << std::endl;
+        }else{
+            std::cout << "The " << plants[i]->getColor() << " " << plants[i]->getPlantType() << " doesn't needs water" << std::endl;
+        }
+    }
+
+}
+

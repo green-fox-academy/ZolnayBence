@@ -6,7 +6,7 @@
 
 class Tree : public Plant{
 public:
-    Tree(int thirstLevel, float absorbtion, const std::string &color);
+    Tree(const std::string &color);
 
     std::string getPlantType() override;
 

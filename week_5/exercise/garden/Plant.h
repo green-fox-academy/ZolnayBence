@@ -15,6 +15,9 @@ public:
     std::string toString();
 
     virtual std::string getPlantType() = 0;
+
+    const std::string &getColor() const;
+
 protected:
     int _thirstLevel;
     int _waterAmount;
