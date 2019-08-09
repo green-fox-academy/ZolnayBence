@@ -50,7 +50,7 @@ void insert_beginning(node_t **head, int data)
 void insert_after(node_t *head, int new_data, node_t *insert_after)
 {
     node_t *current_node = head;
-    while (current_node->next == NULL) {
+    while (current_node->next != NULL) {
         if (current_node->next == insert_after){
             node_t *temp = current_node->next->next;
             current_node->next->next = malloc(sizeof(node_t));

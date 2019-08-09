@@ -17,7 +17,7 @@ int main()
     printf("\n");
     print(head);
 
-    insert_after(head, 5, search(head, 1));
+    insert_after(head, 5, search(head, 10));
     printf("\n");
     print(head);
     return 0;
