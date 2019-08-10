@@ -6,15 +6,21 @@
 #include <vector>
 #include <time.h>
 
+
 class Santa
 {
 public:
-    int addToBag();
+    Santa();
+
+    void addToBag(int size, const std::string &color, const std::string &toyName ,const std::string &name);
+
     void bringToChildren();
-protected:
-    SantaFactory* santaFactory;
-    std::vector<Toy*> _bag;
-    std::vector<std::string> _poorkids;
+private:
+    Toy* toys;
+    std::vector<Toy> _bag;
+    std::vector<std::string> _poorKids = {"Lacika", "Sanyika", "Micike", "Macika", "Anita",
+                                                                                   "Attila"};
+    std::vector<Toy> _deliveredToys;
 };
 
 

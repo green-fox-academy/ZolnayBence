@@ -11,9 +11,12 @@ public:
 
     Toy(int cost, const std::string &color, const std::string &owner);
 
-    virtual std::string getToyType() = 0;
+    //virtual std::string getToyType() = 0;
 
     int getCost() const;
+
+    void setOwner(const std::string &owner);
+
 protected:
     int _size = 0;
     int _cost;

@@ -4,7 +4,7 @@ DottedBall::DottedBall(int size, const std::string &color, const std::string &ow
                                                                                                      owner)
 {}
 
-std::string DottedBall::getToyType()
-{
-    return "Dotted Ball ";
-}
+//std::string DottedBall::getToyType()
+//
+//    return "Dotted Ball ";
+//}

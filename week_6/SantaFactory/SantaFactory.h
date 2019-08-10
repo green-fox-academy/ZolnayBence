@@ -10,7 +10,7 @@ class SantaFactory
 public:
     SantaFactory();
 
-    Toy produce(int size, const std::string &color, const std::string &name);
+    Toy produce(int size, const std::string &color, const std::string &toyName ,const std::string &name);
 private:
     int _balance = 200;
 };

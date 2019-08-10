@@ -7,21 +7,23 @@
 SantaFactory::SantaFactory()
 {}
 
-Toy SantaFactory::produce(int size, const std::string &color, const std::string &name)
+Toy SantaFactory::produce(int size, const std::string &color, const std::string &toyName ,const std::string &name)
 {
     if(_balance <= 0){
         std::cout << "Cannot produce Toys" << std::endl;
         exit(1);
     }
-    if(name == "Doll"){
+    if(toyName == "Doll"){
         Doll doll(color, name);
         _balance -= doll.getCost();
-    }else if(name == "Jumping Rope"){
+        return doll;
+    }else if(toyName == "Jumping Rope"){
         JumpingRope jumpingRope(size, color, name);
         _balance -= jumpingRope.getCost();
-    }else if(name == "Dotted Ball"){
+        return jumpingRope;
+    }else if(toyName == "Dotted Ball"){
         DottedBall dottedBall(size, color, name);
         _balance -= dottedBall.getCost();
+        return dottedBall;
     }
-    return ;
 }

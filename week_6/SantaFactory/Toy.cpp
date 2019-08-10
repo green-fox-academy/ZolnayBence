@@ -13,3 +13,8 @@ int Toy::getCost() const
     return _cost;
 }
 
+void Toy::setOwner(const std::string &owner)
+{
+    _owner = owner;
+}
+

@@ -8,7 +8,7 @@ class JumpingRope : public Toy
 public:
     JumpingRope(int size, const std::string &color, const std::string &owner);
 
-    std::string getToyType() override;
+  //  std::string getToyType() override;
 
 };
 

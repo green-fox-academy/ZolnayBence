@@ -8,7 +8,7 @@ class Doll : public Toy
 public:
     Doll(const std::string &color, const std::string &owner);
 
-    std::string getToyType() override;
+   // std::string getToyType() override;
 
 };
 
