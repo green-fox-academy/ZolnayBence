@@ -2,7 +2,6 @@
 #define SANTAFACTORY_SANTA_H
 
 #include "SantaFactory.h"
-#include "Children.h"
 
 #include <vector>
 #include <time.h>
@@ -13,11 +12,9 @@ public:
     int addToBag();
     void bringToChildren();
 protected:
-    Toy* toys;
-    Children* children;
     SantaFactory* santaFactory;
     std::vector<Toy*> _bag;
-    std::vector<Children*> _poorkids;
+    std::vector<std::string> _poorkids;
 };
 
 

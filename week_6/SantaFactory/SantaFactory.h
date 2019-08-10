@@ -2,17 +2,16 @@
 #define SANTAFACTORY_SANTAFACTORY_H
 
 #include "Toy.h"
-#include <string>
+#include "Doll.h"
+
 
 class SantaFactory
 {
 public:
-    void produce();
+    SantaFactory();
+
+    Toy produce(int size, const std::string &color, const std::string &name);
 private:
-    Toy* toys;
-    std::string color;
-    std::string name;
-    int size = 0;
     int _balance = 200;
 };
 

@@ -4,7 +4,7 @@ int Santa::addToBag()
 {
     for (int i = 0; i < _bag.size(); ++i) {
         santaFactory[i].produce();
-        _bag.push_back(toys);
+        //_bag.push_back();
     }
 
     return _bag.size();
@@ -13,6 +13,6 @@ int Santa::addToBag()
 void Santa::bringToChildren()
 {
     for (int i = 0; i < _bag.size(); ++i) {
-        _poorkids[i]->getName();
+
     }
 }

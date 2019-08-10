@@ -6,7 +6,7 @@
 class Doll : public Toy
 {
 public:
-    Doll(int size, const std::string &color, const std::string &owner);
+    Doll(const std::string &color, const std::string &owner);
 
     std::string getToyType() override;
 

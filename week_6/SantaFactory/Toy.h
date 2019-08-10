@@ -9,6 +9,8 @@ class Toy
 public:
     Toy(int size, int cost, const std::string &color, const std::string &owner);
 
+    Toy(int cost, const std::string &color, const std::string &owner);
+
     virtual std::string getToyType() = 0;
 
     int getCost() const;
