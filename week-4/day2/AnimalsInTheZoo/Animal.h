@@ -23,15 +23,15 @@ public:
     std::string GenderToString(Gender gender);
     std::string SkinSurfaceToString(SkinSurface skinSurface);
     std::string ReproductionToString(Reproduction reproduction);
-protected:
+    virtual std::string breed() = 0;
+    virtual std::string getName() = 0;
 
+protected:
     std::string _name;
     int _age;
     Gender _gender;
     SkinSurface _surface;
     Reproduction  _reproduction;
-    virtual std::string breed() = 0;
-    virtual std::string getName() = 0;
 };
 
 

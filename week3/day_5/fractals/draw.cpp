@@ -16,8 +16,8 @@ void draw_recursive(SDL_Renderer* gRenderer, Sint16 x1, Sint16 y1, Sint16 x2,Sin
     draw_recursive(gRenderer,  (x1/3), (y1/3 + y2), (x2/3), (y2/3) ,depth + 1); // bal közép
     draw_recursive(gRenderer, (x1/3),(y1/3) + 2* y2, (x2/3),  (y2/3) ,depth + 1); //bal alsó
     draw_recursive(gRenderer, (x1/3) + x2 ,(y1/3) + 2 * y2 , (x2/3),  (y2/3) ,depth + 1); //középső also
-    draw_recursive(gRenderer, (x1/3) + 2 * x2 ,(y1/3) + 2 * y2 , (x2/3),  (y2/3) ,depth + 1); //jobb also
-    draw_recursive(gRenderer, (x1/3) + 2 * x2 ,(y1/3) + 2 * y2 , (x2/3),  (y2/3) ,depth + 1); //jobb also
+    draw_recursive(gRenderer, (x1/3) + 2 * x2 ,(y1/3) + 2 * y2 , (x2/3),  (y2/3) ,depth + 1); //jobb közép
+    draw_recursive(gRenderer, (x1/3) + 2 * x2 ,(y1/3) +  y2 , (x2/3),  (y2/3) ,depth + 1); //jobb also
 
 
 

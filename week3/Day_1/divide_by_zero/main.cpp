@@ -32,5 +32,5 @@ int main()
 int divide(int num1)
 {
 
-    return (num1 / 10);
+    return (10/num1);
 }

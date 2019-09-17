@@ -11,4 +11,7 @@ void print(node_t* head);
 void insert_beginning(node_t** head, int data);
 void insert_after(node_t* prev_node, int new_data, node_t* insert_after);
 node_t* search(node_t *head, int key);
+void push_front(node_t** head, int data);
+void pop_front(node_t** head);
+int size(node_t* head);
 #endif //LINKED_LIST_LINKED_LIST_H

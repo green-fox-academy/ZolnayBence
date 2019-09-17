@@ -23,5 +23,5 @@ int *arr(int arrFunq[], int length)
         }
     }
 
-    return Min;
+    return min;
 };

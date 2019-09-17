@@ -9,7 +9,7 @@ IF(WIN32)
     set(MINGW_VERSION i686-w64-mingw32)
 ENDIF()
 
-set(EXECUTABLES "Square_position")
+set(EXECUTABLES "Square_position;proba")
 set(CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
 
 find_package(GFA_SDL2 REQUIRED)

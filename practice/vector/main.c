@@ -10,8 +10,17 @@ int main()
     push_back(&vector, 30);
     print_vector(&vector);
     empty(&vector);
-    erase(&vector);
+    delete_vector(&vector);
     empty(&vector);
+    print_vector(&vector);
+    printf("\n");
+    init_vector(&vector);
+    push_back(&vector, 5);
+    push_back(&vector, 87);
+    push_back(&vector, 50);
+    print_vector(&vector);
+    erase_element(&vector, 1);
+    get(&vector, 1);
     print_vector(&vector);
 
     //vector_t second;

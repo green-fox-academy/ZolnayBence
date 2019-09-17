@@ -23,6 +23,7 @@ SDL_Renderer* gRenderer = nullptr;
 void draw()
 {
     draw2(gRenderer);
+    draw3(gRenderer);
     // Draw the canvas' diagonals.
     // If it starts from the upper-left corner it should be green, otherwise it should be red.
 

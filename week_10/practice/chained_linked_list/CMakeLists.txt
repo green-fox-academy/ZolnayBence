@@ -3,4 +3,4 @@ project(chained_linked_list C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(chained_linked_list main.c)
+add_executable(chained_linked_list main.c Circular_linked_list.h Circular_linked_list.cpp)
