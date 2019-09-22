@@ -14,6 +14,7 @@ void empty(vector_t*);
 void push_back(vector_t*, int data);
 void print_vector(vector_t*);
 void erase(vector_t*);
-void erase_element(vector_t*, int index);
+void erase_element(vector_t*, int data);
+void unique(vector_t*);
 
 #endif //VECTOR_MY_VECTOR_H
