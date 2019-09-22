@@ -20,6 +20,30 @@ void push_back(node_t **head, int data)
     p->next = new_node;
 }
 
+void push_front(node_t** head, int data){
+    node_t *new_node = (node_t*) malloc(sizeof(node_t));
+    new_node->data = data;
+    new_node->next = *head;
+
+    *head = new_node;
+}
+
+void pop_front(node_t** head){
+    node_t* next_node = *head;
+    free(head);
+    *head = next_node->next;
+}
+
+int size(node_t* head){
+    node_t* p = head;
+    int counter = 0;
+    while(p != NULL){
+        counter++;
+        p = p->next;
+    }
+    return counter;
+}
+
 void init(node_t **head)
 {
     *head = NULL;
@@ -33,6 +57,8 @@ void print(node_t *head)
         head = head->next;
     }
 }
+
+
 
 void insert_beginning(node_t **head, int data)
 {

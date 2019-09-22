@@ -18,7 +18,15 @@ int main()
     print(head);
 
     insert_after(head, 5, search(head, 10));
+    insert_after(head, 38, search(head, 10));
     printf("\n");
     print(head);
+
+    push_front(&head, 40);
+    printf("\n");
+    print(head);
+
+    printf("\n");
+    printf("%d", size(head));
     return 0;
 }

@@ -11,9 +11,33 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="814eb667-fa81-4e04-9551-abbd2e636a18" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../../week2/day_4/chekerboard/chekerboard.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../week2/day_4/chekerboard/chekerboard.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Pirates/Pirates.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Pirates/Pirates.cpp" afterDir="false" />
+=======
+    <list default="true" id="84220871-19bd-410a-921a-4af8e59e4ba5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../week-4/Green_fox_inheritence/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week-4/Green_fox_inheritence/Cohort.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week-4/Green_fox_inheritence/Cohort.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week-4/Green_fox_inheritence/Mentor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week-4/Green_fox_inheritence/Mentor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week-4/Green_fox_inheritence/Person.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week-4/Green_fox_inheritence/Person.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week-4/Green_fox_inheritence/Sponsor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week-4/Green_fox_inheritence/Sponsor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week-4/Green_fox_inheritence/Student.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week-4/Green_fox_inheritence/Student.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week-4/Green_fox_inheritence/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week2/day_1/find-minimum/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../week2/day_1/find-minimum/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week2/day_3/Diagnols/draw.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../week2/day_3/Diagnols/draw.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week2/day_3/Diagnols/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../week2/day_3/Diagnols/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week2/day_3/RainBowboxes/RainBowBoxes.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../week2/day_3/RainBowboxes/RainBowBoxes.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week2/day_3/Square_pos/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../week2/day_3/Square_pos/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week3/Day_1/divide_by_zero/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../week3/Day_1/divide_by_zero/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week3/day_3/Dominoes/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../week3/day_3/Dominoes/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week3/day_5/fractals/draw.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../week3/day_5/fractals/draw.cpp" afterDir="false" />
+>>>>>>> f9def5f80a6acdde53974579de7364332fa1d92e
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,6 +52,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Animal.cpp">
           <provider selected="true" editor-type-id="text-editor" />
@@ -38,28 +63,44 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
+=======
+>>>>>>> f9def5f80a6acdde53974579de7364332fa1d92e
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AnimalShelter.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
+<<<<<<< HEAD
               <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+=======
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+>>>>>>> f9def5f80a6acdde53974579de7364332fa1d92e
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
               <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
+=======
+        <entry file="file://$PROJECT_DIR$/AnimalShelter.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+              <folding>
+                <element signature="e#103#122#0" expanded="true" />
+>>>>>>> f9def5f80a6acdde53974579de7364332fa1d92e
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/AnimalShelter.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="476">
@@ -67,55 +108,110 @@
               <folding>
                 <element signature="e#105#124#0" expanded="true" />
               </folding>
+=======
+        <entry file="file://$PROJECT_DIR$/Animal.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+>>>>>>> f9def5f80a6acdde53974579de7364332fa1d92e
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/Cat.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
               <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="13" selection-end-column="18" />
+=======
+        <entry file="file://$PROJECT_DIR$/Animal.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+>>>>>>> f9def5f80a6acdde53974579de7364332fa1d92e
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/Dog.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+=======
+        <entry file="file://$PROJECT_DIR$/Cat.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="5" selection-end-column="27" />
+>>>>>>> f9def5f80a6acdde53974579de7364332fa1d92e
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/Dog.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+=======
+        <entry file="file://$PROJECT_DIR$/Cat.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+>>>>>>> f9def5f80a6acdde53974579de7364332fa1d92e
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Parrot.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Dog.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+>>>>>>> f9def5f80a6acdde53974579de7364332fa1d92e
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/Parrot.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
               <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+=======
+        <entry file="file://$PROJECT_DIR$/Dog.h">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Parrot.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+>>>>>>> f9def5f80a6acdde53974579de7364332fa1d92e
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Parrot.h">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+>>>>>>> f9def5f80a6acdde53974579de7364332fa1d92e
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -124,6 +220,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/Dog.cpp" />
         <option value="$PROJECT_DIR$/Dog.h" />
         <option value="$PROJECT_DIR$/Parrot.h" />
@@ -131,14 +228,34 @@
         <option value="$PROJECT_DIR$/AnimalShelter.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/AnimalShelter.h" />
+=======
+        <option value="$PROJECT_DIR$/AnimaShelter.h" />
+        <option value="$PROJECT_DIR$/AnimaShelter.cpp" />
+        <option value="$PROJECT_DIR$/AnimalShelter.h" />
+        <option value="$PROJECT_DIR$/AnimalShelter.cpp" />
+        <option value="$PROJECT_DIR$/Dog.h" />
+        <option value="$PROJECT_DIR$/Animal.cpp" />
+        <option value="$PROJECT_DIR$/Animal.h" />
+        <option value="$PROJECT_DIR$/Cat.h" />
+        <option value="$PROJECT_DIR$/Cat.cpp" />
+        <option value="$PROJECT_DIR$/Parrot.cpp" />
+        <option value="$PROJECT_DIR$/Dog.cpp" />
+>>>>>>> f9def5f80a6acdde53974579de7364332fa1d92e
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< HEAD
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
+=======
+    <option name="x" value="220" />
+    <option name="y" value="-10" />
+    <option name="width" value="1095" />
+    <option name="height" value="530" />
+>>>>>>> f9def5f80a6acdde53974579de7364332fa1d92e
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -146,6 +263,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
+      <pane id="Scope" />
+>>>>>>> f9def5f80a6acdde53974579de7364332fa1d92e
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -157,15 +278,25 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scope" />
+=======
+>>>>>>> f9def5f80a6acdde53974579de7364332fa1d92e
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../week_6/exercise/matrix_multiply" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+=======
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+>>>>>>> f9def5f80a6acdde53974579de7364332fa1d92e
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -191,6 +322,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="814eb667-fa81-4e04-9551-abbd2e636a18" name="Default Changelist" comment="" />
       <created>1564681927052</created>
       <option name="number" value="Default" />
@@ -198,10 +330,20 @@
       <updated>1564681927052</updated>
       <workItem from="1564681935361" duration="2236000" />
       <workItem from="1565026748784" duration="27000" />
+=======
+      <changelist id="84220871-19bd-410a-921a-4af8e59e4ba5" name="Default Changelist" comment="" />
+      <created>1564667911966</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564667911966</updated>
+      <workItem from="1564667914436" duration="5412000" />
+      <workItem from="1564728497871" duration="985000" />
+>>>>>>> f9def5f80a6acdde53974579de7364332fa1d92e
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="2263000" />
   </component>
   <component name="ToolWindowManager">
@@ -227,12 +369,40 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+=======
+    <option name="totallyTimeSpent" value="6397000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="840" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="CMake" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+>>>>>>> f9def5f80a6acdde53974579de7364332fa1d92e
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Cat.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -240,11 +410,18 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Animal.h">
+=======
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+>>>>>>> f9def5f80a6acdde53974579de7364332fa1d92e
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/AnimalShelter.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
+<<<<<<< HEAD
           <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
         </state>
       </provider>
@@ -255,10 +432,23 @@
           <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
+=======
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnimalShelter.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding>
+            <element signature="e#103#122#0" expanded="true" />
+>>>>>>> f9def5f80a6acdde53974579de7364332fa1d92e
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/AnimalShelter.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -301,6 +491,53 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+=======
+    <entry file="file://$PROJECT_DIR$/Animal.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Animal.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cat.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cat.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dog.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Parrot.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Parrot.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dog.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+>>>>>>> f9def5f80a6acdde53974579de7364332fa1d92e
         </state>
       </provider>
     </entry>

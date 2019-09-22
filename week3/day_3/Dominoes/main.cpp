@@ -44,6 +44,4 @@ void dominoSwap(Domino &domino1, Domino &domino2)
     Domino swap = domino1;
     domino1 = domino2;
     domino2 = swap;
-
-
 }

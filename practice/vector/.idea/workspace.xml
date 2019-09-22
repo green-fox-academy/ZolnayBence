@@ -16,7 +16,34 @@
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_vector.c" beforeDir="false" afterPath="$PROJECT_DIR$/my_vector.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_vector.h" beforeDir="false" afterPath="$PROJECT_DIR$/my_vector.h" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/../../week3/day_3/Animal/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/day_3/Animal/CMakeLists.txt" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/../../week-4/Green_fox_inheritence/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-4/Green_fox_inheritence/Cohort.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-4/Green_fox_inheritence/Cohort.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-4/Green_fox_inheritence/Mentor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-4/Green_fox_inheritence/Mentor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-4/Green_fox_inheritence/Person.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-4/Green_fox_inheritence/Person.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-4/Green_fox_inheritence/Sponsor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-4/Green_fox_inheritence/Sponsor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-4/Green_fox_inheritence/Student.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-4/Green_fox_inheritence/Student.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-4/Green_fox_inheritence/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-4/day2/AnimalsInTheZoo/Animal.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-4/day2/AnimalsInTheZoo/Animal.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week2/day_1/find-minimum/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day_1/find-minimum/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week2/day_3/Diagnols/draw.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day_3/Diagnols/draw.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week2/day_3/Diagnols/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day_3/Diagnols/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week2/day_3/RainBowboxes/RainBowBoxes.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day_3/RainBowboxes/RainBowBoxes.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week2/day_3/Square_pos/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day_3/Square_pos/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week3/Day_1/divide_by_zero/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/Day_1/divide_by_zero/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week3/day_3/Dominoes/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/day_3/Dominoes/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week3/day_5/fractals/draw.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/day_5/fractals/draw.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_6/day_4/linked_list/linked_list.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_6/day_4/linked_list/linked_list.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_6/day_4/linked_list/linked_list.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_6/day_4/linked_list/linked_list.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_6/day_4/linked_list/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_6/day_4/linked_list/main.c" afterDir="false" />
+>>>>>>> f9def5f80a6acdde53974579de7364332fa1d92e
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,8 +66,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.c">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="221">
               <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="31" />
+=======
+            <state relative-caret-position="374">
+              <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+>>>>>>> f9def5f80a6acdde53974579de7364332fa1d92e
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -51,11 +83,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my_vector.h">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="272">
               <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
               <folding>
                 <element signature="e#55#74#0" expanded="true" />
               </folding>
+=======
+            <state relative-caret-position="391">
+              <caret line="23" selection-start-line="23" selection-end-line="23" selection-end-column="25" />
+>>>>>>> f9def5f80a6acdde53974579de7364332fa1d92e
             </state>
           </provider>
         </entry>
@@ -63,8 +100,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/my_vector.c">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="1224">
               <caret line="72" column="21" lean-forward="true" selection-start-line="69" selection-start-column="6" selection-end-line="72" selection-end-column="21" />
+=======
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+>>>>>>> f9def5f80a6acdde53974579de7364332fa1d92e
             </state>
           </provider>
         </entry>
@@ -80,6 +122,10 @@
         <option value="$PROJECT_DIR$/my_vector.cpp" />
         <option value="$PROJECT_DIR$/main.c" />
         <option value="$PROJECT_DIR$/my_vector.h" />
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/main.c" />
+>>>>>>> f9def5f80a6acdde53974579de7364332fa1d92e
         <option value="$PROJECT_DIR$/my_vector.c" />
       </list>
     </option>
@@ -95,10 +141,17 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< HEAD
     <option name="x" value="170" />
     <option name="y" value="91" />
     <option name="width" value="1026" />
     <option name="height" value="546" />
+=======
+    <option name="x" value="476" />
+    <option name="y" value="-19" />
+    <option name="width" value="1095" />
+    <option name="height" value="1035" />
+>>>>>>> f9def5f80a6acdde53974579de7364332fa1d92e
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -153,30 +206,58 @@
       <option name="presentableId" value="Default" />
       <updated>1566980662575</updated>
       <workItem from="1566980710866" duration="2685000" />
+<<<<<<< HEAD
       <workItem from="1567150259756" duration="2981000" />
       <workItem from="1567157602590" duration="136000" />
       <workItem from="1567948894267" duration="2000" />
+=======
+      <workItem from="1567671778417" duration="113000" />
+      <workItem from="1568018856875" duration="811000" />
+      <workItem from="1568033167742" duration="2458000" />
+      <workItem from="1568100037754" duration="1193000" />
+      <workItem from="1568120337556" duration="5015000" />
+      <workItem from="1568191330443" duration="2069000" />
+      <workItem from="1568278907916" duration="19000" />
+>>>>>>> f9def5f80a6acdde53974579de7364332fa1d92e
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="5804000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19213313" />
+=======
+    <option name="totallyTimeSpent" value="14363000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="840" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.07852349" />
+>>>>>>> f9def5f80a6acdde53974579de7364332fa1d92e
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" weight="0.32718894" />
+=======
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32627118" />
+>>>>>>> f9def5f80a6acdde53974579de7364332fa1d92e
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3994253" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32718894" />
+=======
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32627118" />
+>>>>>>> f9def5f80a6acdde53974579de7364332fa1d92e
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -197,8 +278,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.c">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="221">
           <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="31" />
+=======
+        <state relative-caret-position="374">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+>>>>>>> f9def5f80a6acdde53974579de7364332fa1d92e
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -207,18 +293,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/my_vector.h">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="272">
           <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
           <folding>
             <element signature="e#55#74#0" expanded="true" />
           </folding>
+=======
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="23" selection-end-column="25" />
+>>>>>>> f9def5f80a6acdde53974579de7364332fa1d92e
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my_vector.c">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="1224">
           <caret line="72" column="21" lean-forward="true" selection-start-line="69" selection-start-column="6" selection-end-line="72" selection-end-column="21" />
+=======
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+>>>>>>> f9def5f80a6acdde53974579de7364332fa1d92e
         </state>
       </provider>
     </entry>
